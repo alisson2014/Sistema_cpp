@@ -253,6 +253,7 @@ void DAA_excluiProdutos(){
 
     DAA_controleQuantidadeCadastrados--;
     cout<<DAA_nomeProduto[DAA_codigoProdutoEditado];
+    DAA_operacaoSucesso();
 }
 
 //---------------------------------------------------------------------------------------------------
